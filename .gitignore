@@ -10,3 +10,6 @@ galleryapp/__pycache__/*
 /apps/clients/migrations/*
 /apps/orders/__pycache__/*
 /apps/orders/migrations/*
+.venv
+venv/
+venv/*
