@@ -17,3 +17,8 @@ class Exposicao (models.Model):
         exposicao = Exposicao.objects.get(pk=id)
         exposicao.delete()
         print("deletado com sucesso")
+
+    class Meta:
+        verbose_name = 'Exposicoes'
+        verbose_name_plural = 'Exposicoes'
+        ordering =['id']

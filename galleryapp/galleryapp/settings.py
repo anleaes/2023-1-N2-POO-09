@@ -54,6 +54,7 @@ INSTALLED_APPS = [
     'pessoas.apps.PessoasConfig',
     'exposicoes.apps.ExposicoesConfig',
     'ingressos.apps.IngressosConfig',
+    'espacos.apps.EspacosConfig',
 ]
 
 MIDDLEWARE = [
