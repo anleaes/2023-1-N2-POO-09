@@ -28,4 +28,6 @@ urlpatterns = [
     path('redessociais/', include('socialnetworks.urls', namespace='socialnetworks')),
     path('produtos/', include('products.urls', namespace='products')),
     path('categorias/', include('categories.urls', namespace='categories')),
+    path('acervo/', include('acervo.urls', namespace='acervos')),
+    path('genero/', include('genero.urls', namespace='generos')), 
 ]
