@@ -1,0 +1,15 @@
+db.sqlite3
+galleryapp/__pycache__/*
+galleryapp/apps/categories/__pycache__/*
+galleryapp/apps/categories/migrations/*
+galleryapp/apps/products/__pycache__/*
+galleryapp/apps/products/migrations/*
+galleryapp/apps/socialnetworks/__pycache__/*
+galleryapp/apps/socialnetworks/migrations/*
+galleryapp/apps/clients/__pycache__/*
+galleryapp/apps/clients/migrations/*
+galleryapp/apps/orders/__pycache__/*
+galleryapp/apps/orders/migrations/*
+.venv
+venv/
+venv/*
