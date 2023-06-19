@@ -20,3 +20,5 @@ galleryapp/__pycache__/*
 /apps/pessoas/migrations/*
 /apps/acervo/__pycache__/*
 /apps/acervo/migrations/*
+/apps/genero/__pycache__/*
+/apps/genero/migrations/*
