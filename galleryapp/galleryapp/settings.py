@@ -53,6 +53,7 @@ INSTALLED_APPS = [
     'orders.apps.OrdersConfig',
     'pessoas.apps.PessoasConfig',
     'exposicoes.apps.ExposicoesConfig',
+    'ingressos.apps.IngressosConfig',
 ]
 
 MIDDLEWARE = [

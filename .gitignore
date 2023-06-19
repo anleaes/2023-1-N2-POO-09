@@ -14,6 +14,8 @@ galleryapp/apps/pessoas/migrations/*
 galleryapp/apps/pessoas/__pycache__/*
 galleryapp/apps/exposicao/migrations/*
 galleryapp/apps/exposicao/__pycache__/*
+galleryapp/apps/ingressos/migrations/*
+galleryapp/apps/ingressos/__pycache__/*
 .venv
 venv/
 venv/*

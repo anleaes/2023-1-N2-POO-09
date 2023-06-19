@@ -4,7 +4,7 @@ from django.db import models
 class Pessoa (models.Model):
     nome = models.CharField('Nome', max_length=50)
     sobrenome = models.CharField('Sobrenome', max_length=50)
-    cpf = models.IntegerField('Idade', max_length=11)
+    cpf = models.IntegerField('cpf', max_length=11)
     idade = models.IntegerField('Idade')
     dataNascimento = models.DateField('Data Nascimento', auto_now=False, auto_now_add=False)
 
