@@ -1,6 +1,6 @@
 from django.db import models
-from apps.exposicoes.models import Exposicao
-from apps.pessoas.models import Pessoa
+from exposicoes.models import Exposicao
+from pessoas.models import Pessoa
 
 # Create your models here.
 class Ingresso (models.Model):
