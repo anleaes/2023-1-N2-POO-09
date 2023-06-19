@@ -1,0 +1,87 @@
+@startuml GalleryApp
+
+title N2 - Diagrama de Classe - Galerias
+
+class Acervo {
+    - id int
+    - titulo string
+    - ano int
+    - descricao string
+    - faixa_etaria int
+    - artista string
+    - categoria Categoria
+    - genero Genero
+    + cadastrarAcervo(id, titulo, ano, descricao, faixa_etaria, artista, categoria, genero)
+    + consultarAcervo(id)
+    + excluirAcervo(id)
+}
+
+class Pessoa {
+    -id int
+    -nome string
+    -sobrenome string
+    #cpf int
+    -idade int
+    -dataNascimento date
+    +cadastrarPessoa(nome, sobrenome, cpf, idade, dataNascimento)
+    +consultarCpf(cpf)
+    +excluirPessoa(id)
+}
+
+class Categoria {
+    - id int
+    - titulo string
+    - descricao string
+    + cadastrarCategoria(titulo, descricao)
+    + consultarCategoria(id)
+    + excluirCategoria(id)
+}
+
+class Genero {
+    - id int
+    - nome string
+    - descricao string
+    + cadastrarGenero(nome, descricao)
+    + consultarGenero(id)
+    + excluirGenero(id)
+}
+
+class Ingresso {
+    - id int
+    - nome_comprador string
+    - documento_comprador int
+    - Exposicao Exposicao
+    - pessoa Pessoa
+    + cadastrarIngresso (nome_comprador, idade_comprador, documento_comprador)
+    + consultarIngresso(id)
+    + excluirIngresso(id)    
+}
+
+class Espaco {
+    - id int
+    - nome_espaco string
+    - lotacao int
+    - tipo_espaco string
+    + cadastrarEspaco(nome_espaco, lotacao, tipo_espaco)
+    + consultarEspaco(id)
+    + excluirEspaco(id)
+}
+
+class Exposicao {
+    - id int
+    - horario date
+    - acervo Acervo
+    - espaco Espaco
+    + cadastraExposicao(horario)
+    + consultarExposicao(id)
+    + excluirExposicao(id)
+}
+
+Acervo *-- Categoria
+Acervo *-- Genero
+Espaco --* Exposicao
+Exposicao *-- Acervo
+Pessoa --* Ingresso
+Ingresso *-- Exposicao
+
+@enduml
