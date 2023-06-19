@@ -10,3 +10,13 @@ GalleryApp/__pycache__/*
 /apps/clients/migrations/*
 /apps/orders/__pycache__/*
 /apps/orders/migrations/*
+/apps/espacos/__pycache__/*
+/apps/espacos/migrations/*
+/apps/exposicoes/__pycache__/*
+/apps/exposicoes/migrations/*
+/apps/ingressos/__pycache__/*
+/apps/ingressos/migrations/*
+/apps/pessoas/__pycache__/*
+/apps/pessoas/migrations/*
+/apps/acervo/__pycache__/*
+/apps/acervo/migrations/*
