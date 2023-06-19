@@ -8,6 +8,6 @@ class CategorySerializer(serializers.ModelSerializer):
         
         # Para chamar todos os atributos:
         # fields = '__all__'
-        
         # Para chamar somentes os atributos de interesse:
         # fields = ['id','created_on', 'updated_on', 'name', 'description']
+        # ver como inserir outros métodos
