@@ -55,6 +55,7 @@ INSTALLED_APPS = [
     'exposicoes.apps.ExposicoesConfig',
     'ingressos.apps.IngressosConfig',
     'espacos.apps.EspacosConfig',
+    'acervo.apps.AcervoConfig' ,
 ]
 
 MIDDLEWARE = [
