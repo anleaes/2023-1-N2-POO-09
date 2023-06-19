@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'socialnetworks.apps.SocialnetworksConfig',
     'clients.apps.ClientsConfig',
     'orders.apps.OrdersConfig',
+    'acervo.apps.AcervoConfig',
 ]
 
 MIDDLEWARE = [
