@@ -17,5 +17,10 @@ class Ingresso (models.Model):
         ingresso = Ingresso.objects.get(pk=id)
         ingresso.delete()
         print("deletado com sucesso")
+        
+    class Meta:
+        verbose_name = 'Ingresso'
+        verbose_name_plural = 'Ingressos'
+        ordering =['id']   
 
 

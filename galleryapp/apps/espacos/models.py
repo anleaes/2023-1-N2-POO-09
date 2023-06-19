@@ -16,3 +16,8 @@ class Espaco (models.Model):
         espaco = Espaco.objects.get(pk=id)
         espaco.delete()
         print("deletado com sucesso")
+
+    class Meta:
+        verbose_name = 'Espaco'
+        verbose_name_plural = 'Espacos'
+        ordering =['id']

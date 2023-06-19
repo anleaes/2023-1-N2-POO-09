@@ -25,6 +25,11 @@ class Pessoa (models.Model):
         pessoa.delete()
         print("deletado com sucesso")
 
+    class Meta:
+        verbose_name = 'Pessoa'
+        verbose_name_plural = 'Pessoas'
+        ordering =['id']
+
     #+cadastrarPessoa(nome, sobrenome, cpf, idade, dataNascimento)
     #+consultarCpf(cpf)
     #+excluirPessoa(id)
